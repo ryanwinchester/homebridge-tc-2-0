@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthillman/homebridge-tc-2-0.git"
+    "url": "git+https://github.com/matthillman/homebridge-tc-2-0.git"
   },
   "bugs": {
     "url": "https://github.com/matthillman/homebridge-tc-2-0/issues"
@@ -40,5 +40,8 @@
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/matthillman/homebridge-tc-2-0#readme",
+  "author": ""
 }
